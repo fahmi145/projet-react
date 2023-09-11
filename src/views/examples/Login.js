@@ -41,16 +41,27 @@ const Login = () => {
   const [password, setPassword] = useState('');
 
   const createAccount = () => {
-    history.replace('/register-guest')
+    history.replace('auth/register-guest')
   }
 
     const loginAction = (e) => {
+      e.preventDefault();
     alert("loginAction");
                let  response = {"registred":"1","status":"Ok","usersession":"2ea9bsdf08a735d042829a85353316ed","email":"test@monbacmission.com","level":"4","username":"","surname":"test","name":"User"};
                 localStorage.setItem('user', JSON.stringify(response));
                history.push('/admin')
 
    }
+   const onSubmit = (e) => {
+    e.preventDefault();
+    if (data.emailValidation.includes('@gmail.com')) {
+      history.replace('/custom/formateur');
+  } else if (data.emailValidation.includes('@educationaldev')) {
+      history.replace('/custom/apprenant');
+    }else if (data.emailValidation.includes('@admin')) {
+      history.replace('/admin/');
+    }
+  };
 
 
   return (
@@ -63,7 +74,7 @@ const Login = () => {
             </div>
           </CardHeader>
           <CardBody className="px-lg-5 py-lg-5">
-            <Form role="form">
+            <Form onSubmit={onSubmit}>
               <FormGroup className="mb-3">
                 <InputGroup className="input-group-alternative">
                   <InputGroupAddon addonType="prepend">
@@ -94,7 +105,7 @@ const Login = () => {
                 </InputGroup>
               </FormGroup>
               <div className="text-center">
-                <Button onClick={loginAction} className="my-4" color="primary" type="button">
+                <Button onClick={loginAction} className="my-4" color="primary" type="submit">
                   Login
                 </Button>
               </div>

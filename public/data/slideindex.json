@@ -1,0 +1,18 @@
+[
+  {
+    "src": "./slide1.webp",
+    "altText": "Slide 1",
+    "aption": "Slide 1"
+  },
+  {
+    "src": "./slide2.webp",
+    "altText": "Slide 1",
+    "aption": "Slide 1"
+  },
+  {
+    "src": "./slide3.webp",
+    "altText": "Slide 1",
+    "aption": "Slide 1"
+  }
+
+]

@@ -18,6 +18,7 @@ import {
   import { useRef, } from 'react';
   
   import { useHistory } from "react-router-dom";
+import { data } from "jquery";
   
   const RegisterGuest = () => {
   
@@ -39,23 +40,23 @@ import {
     };
     const handleButtonClick = () => {
        //Exemple de navigation vers une autre page
-      history.push('/custom/apprenant');
-      
+     history.replace('/custom/apprenant');
+     
     };
   
       
       
     const onSubmit = (data) => {
       if (data.emailValidation.includes('@gmail.com')) {
-        history.replace('custom/formations');
+        history.replace('/custom/formateur');
     } else if (data.emailValidation.includes('@educationaldev')) {
-        history.replace('custom/apprenant');
+        history.replace('/custom/apprenant');
       }
     };
 
   
     const subscribe = (data) => {
-    //  alert("data: "+JSON.stringify(data));
+    // alert("data: "+JSON.stringify(data));
       //const values = getValues();
   
       const formData = new FormData();
@@ -96,7 +97,7 @@ import {
                   </Row>
                 </CardHeader>
                 <CardBody>
-                  <Form>
+                  <Form onSubmit={handleSubmit(onSubmit)}>
                     
                     
                       
@@ -171,13 +172,14 @@ import {
                           <Controller
                             name="emailValidation"
                             control={control}
-                            defaultValue=""
                             render={({ field }) =>
                             <Input
                               className="form-control-alternative"   {...field}
+                              defaultValue=""
                               id="input-email"
                               placeholder=""
                               type="email"
+                              
 
                             />
                             }
@@ -214,7 +216,7 @@ import {
                   </Col>
                 </Row>
                 <div className="text-center">
-                <Button className="mt-4" color="primary"  onClick={handleButtonClick} >
+                <Button className="mt-4" color="primary"    type="submit"  >
                   Confirmez votre inscription 
                  
                    

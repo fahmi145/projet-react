@@ -1,0 +1,189 @@
+{
+   "items01":{
+      "dataPage":{
+         "imgSection":"./structure/expertisesitems01_1.webp",
+         "titleSection":"BET STRUCTURE",
+         "contentSection":"Réalisation des études de structures pour des ouvrages neufs ou réhabilités. Élaboration de tous types de plans, de la conception à l'exécution( coffrage, ferraillage , assemblages ... ) , Édition de toutes notes de calcul de dimensionnement conformément aux réglementations en vigueur. Expertises et diagnostics techniques et Conception et modélisation informatiques sur les ouvrages existant.",
+         "idSection":"items01"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU D'ÉTUDE STRUCTURE</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Nos compétences<ul><li>Réalisation des études de structures pour des ouvrages neufs ou réhabilités</li><li>Élaboration de tous types de plans, de la conception li l'exécution (coffrage, ferraillage, assemblages ... )</li><li>Édition de toutes notes de calcul de dimensionnement conformément aux réglementations en vigueur</li><li>Expertises et diagnostics techniques</li><li>Conception et modélisations Informatiques sur les ouvrages (Maquette numérique)</li></ul></p>",
+      "itemSlide":[
+         {
+            "src":"./structure/expertisesitems01_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./structure/expertisesitems01_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./structure/expertisesitems01_3.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./structure/expertisesitems01_4.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./structure/expertisesitems01_5.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./structure/expertisesitems01_6.webp",
+            "altText":"",
+            "caption":""
+         }
+      ]
+   },
+   "items02":{
+      "dataPage":{
+         "imgSection":"./fluide/expertisesitems02_1.webp",
+         "titleSection":"BET FLUIDE ",
+         "contentSection":"Réalisation des études de fluides pour des ouvrages neufs ou réhabilités, Élaboration tous types de plans, de la conception à l’exécution, Édition toutes notes de calcul de dimensionnement conformément aux réglementations en vigueur, Expertises et diagnostics techniques, Conception et modélisations Informatiques et la Réalisation des maquettes BIM.",
+         "idSection":"items02"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU D'ÉTUDE FLUIDES</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Nos compétences<ul><li>Réalisation des études de fluides pour des ouvrages neufs ou réhabilités</li><li>Élaboration tous types de plans, de la conception à l'exécution</li><li>Édition toutes notes de calcul de dimensionnement conformément aux réglementations en vigueur</li><li>Expertises et diagnostics techniques</li><li>Conception et modélisations Informatiques</li><li>Réalisation des maquettes BIM</li></ul></p>",
+      "itemSlide":[
+         {
+            "src":"./fluide/expertisesitems02_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./fluide/expertisesitems02_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./fluide/expertisesitems02_3.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./fluide/expertisesitems02_4.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./fluide/expertisesitems02_5.webp",
+            "altText":"",
+            "caption":""
+         }
+      ]
+   },
+   "items03":{
+      "dataPage":{
+         "imgSection":"./electricite/expertisesitems03_1.webp",
+         "titleSection":"BET ÉLECTRICITÉ ",
+         "contentSection":"Études d'exécution (plans de distribution, colonnes montantes, notes de calcul...), Conception des Installations électriques, Mise aux normes des locaux existants, Réaménagement des installations électriques existantes, Conception des postes de transformation privé et concessionnaire, Conception et dimensionnement des groupes électrogènes de secours et de sécurité, Conception et dimensionnement des alimentations sans Interruption (UPS Onduleurs), Études d'éclairement.",
+         "idSection":"items03"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU D'ÉTUDE ÉLECTRICITÉ</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Nos compétences<ul><li>Études d'exécution (plans de distribution, colonnes montantes, notes de calcul...)</li><li>Conception des installations électriques</li><li>Mise aux normes des locaux existants</li><li>Réaménagement des Installations électriques existantes</li><li>Conception des postes de transformation privés et/ou concessionnaires</li><li>Conception et dimensionnement des groupes électrogènes de secours et de sécurité</li><li>Conception et dimensionnement des alimentations sans Interruption (UPS Onduleurs)</li><li>Études d'éclairement</li></ul></p>",
+      "itemSlide":[
+         {
+            "src":"./electricite/expertisesitems03_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./electricite/expertisesitems03_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./electricite/expertisesitems03_3.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./electricite/expertisesitems03_4.webp",
+            "altText":"",
+            "caption":""
+         } 
+      ]
+   },
+   "items04":{
+      "dataPage":{
+         "imgSection":"./securite/expertisesitems04_1.webp",
+         "titleSection":"BET SECURITE INCENDIE",
+         "contentSection":"Bureau d’études techniques spécialisé en gestion et prévention des risques d’incendie et de panique et expert en coordination des systèmes de sécurité incendie, nous intervenons auprès des Maîtres d’Ouvrages du secteur public et privé, des maîtres d’œuvres et des architectes.",
+         "idSection":"items04"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU SECURITE INCENDIE</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Bureau d’études techniques spécialisé en gestion et prévention des risques d’incendie et de panique et expert en coordination des systèmes de sécurité incendie, nous intervenons auprès des Maîtres d’Ouvrages du secteurpublic et privé, des maîtres d’œuvres et des architectes.</p>",
+      "itemSlide":[
+         {
+            "src":"./securite/expertisesitems04_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./securite/expertisesitems04_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./securite/expertisesitems04_3.webp",
+            "altText":"",
+            "caption":""
+         } 
+      ]
+   },
+   "items05":{
+      "dataPage":{
+         "imgSection":"./thermique/expertisesitems05_1.webp",
+         "titleSection":"BET THERMIQUE",
+         "contentSection":"Effectuer des bilans thermiques pour des ouvrages neufs ou réhabilités, Élaborer tous types de plans, de la conception à l'exécution., Éditer toutes notes de calcul de dimensionnement conformément aux réglementations en vigueur, Assurer vos expertises et diagnostics techniques, Concevoir des modélisations Informatiques.",
+         "idSection":"items05"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU D'ÉTUDE THERMIQUE</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Nous étudions les dissipations thermiques dans l’enveloppe du bâtiment afin d'améliorer la performance énergétique.Nos compétences:<ul><li>Attestations 8810 pour l'obtention du permis de construire</li><li>Réglementation thermique 2005 BBC et 2012</li><li>Règlementation thermique Existants (THCE ex)</li><li>Etude thermique BEPOS (Energie positive)</li><li>Bilan thermique/ calcul des déperditions et apports thermiques</li><li>Simulation thermique dynamique (STD)</li><li>Etude de faisabilité et calcul de rentabilité</li><li>Optimisation énergétique</li><li>Audit énergétique/ diagnostic thermique+ passage caméra thermique </li></ul></p></>",
+      "itemSlide":[
+         {
+            "src":"./thermique/expertisesitems05_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./thermique/expertisesitems05_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./thermique/expertisesitems05_3.webp",
+            "altText":"",
+            "caption":""
+         } 
+      ]
+   },
+   "items06":{
+      "dataPage":{
+         "imgSection":"./VRD/expertisesitems06_1.webp",
+         "titleSection":"BET VRD",
+         "contentSection":"Dimensionnement des ouvrages d'assainissement (canalisations, bassins, séparateurs hydrocarbures.), Réalisations des levées topographiques et études de nivellement (pentes, cubatures, respect normes PMR ...), Edition de notes de calcul conformément aux normes en rigueur.), Élaboration de tout type de plans de la conception à exécution, Réalisations d'expertises, diagnostics sur ouvrages existants.",
+         "idSection":"items06"
+      },
+      "itemData":"<div className='col'><span className='h2 font-weight-bold mb-0'><b>Aagencit VOTRE BUREAU D'ÉTUDE VRD</b></span></div><p className='mt-3 mb-0 text-muted text-sm'>Nos compétences:<ul><li>Dimensionnement des ouvrages d'assainissement (canalisations, bassins, séparateurs hydrocarbures)</li><li>Réalisations des levées topographiques et études de nivellement (pentes, cubatures, respect normes PMR ...)</li><li>Edition de notes de calcul conformément aux normes en vigueur</li><li>Élaboration de tout type de plans de la conception à exécution et coordination sur la maquette numérique</li><li>Réalisations d'expertises, diagnostics sur ouvrages existants</li></ul></p>",
+      "itemSlide":[
+         {
+            "src":"./VRD/expertisesitems06_1.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./VRD/expertisesitems06_2.webp",
+            "altText":"",
+            "caption":""
+         },
+         {
+            "src":"./VRD/expertisesitems06_3.webp",
+            "altText":"",
+            "caption":""
+         } 
+      ]
+   }
+
+}

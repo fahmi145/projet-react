@@ -158,6 +158,13 @@ var routes = [
     layout: "/admin"
   },
   {
+    path: "/media",
+    name: "",
+    icon: "ni ni-tv-2 text-primary",
+    component: Media,
+    layout: "/custom"
+  },
+  {
     path: "/login",
     name: "Login",
     icon: "ni ni-key-25 text-info",
@@ -177,13 +184,10 @@ var routes = [
     icon: "ni ni-circle-08 text-pink",
     component: Profile,
     layout: "/auth"
-  }
+  },
+  
 ];
 export default routes;
-
-
-
-
 
 
 

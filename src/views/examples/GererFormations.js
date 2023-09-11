@@ -24,8 +24,8 @@ const GererFormations=() =>{
       
       created_at: "2022-04-01",
       duration: "12 weeks",
-    },
-    {
+      },
+      {
       id:2,
       title: "Mobile App Development",
       description: "Learn to build native mobile apps for iOS and Android.",
@@ -34,8 +34,8 @@ const GererFormations=() =>{
       price: 149.99,
       created_at: "2022-05-01",
       duration: "16 weeks",
-    },
-    {
+      },
+      {
       id:3,
       title: "Data Science Fundamentals",
       description: "Learn the basics of data science and machine learning.",
@@ -44,8 +44,8 @@ const GererFormations=() =>{
       price: 79.99,
       created_at: "2022-06-01",
       duration: "8 weeks",
-    },
-    {
+      },
+      {
       id:4,
       title: "JavaScript:la formation ULTIME",
       description: "Maitrisez JavaScript grace au cours le plus complet sur internet! Projets,exercices,quiz,ES8 et bien D'autre!.",
@@ -54,8 +54,8 @@ const GererFormations=() =>{
       price: 79.99,
       created_at: "2022-06-01",
       duration: "8 weeks",
-    },
-    {
+      },
+      {
       id:5,
       title: "Migration de bases de données vers AWS ",
       description: "Obtenir les connaissances nécessaires pour accueillir vos bases de données relationnelles dans le cloud AWS.",
@@ -64,18 +64,26 @@ const GererFormations=() =>{
       price: 69.99,
       created_at: "2022-06-01",
       duration: "8 weeks",
-    },
-    {
+      },
+      {
       id:6,
       title: "Certification Cybersécurité : De Débutant à Expert 2023",
       description: "Learn the basics of data science and machine learning.",
       image_url:
       "https://img-c.udemycdn.com/course/240x135/3654420_6ef3_8.jpg",
+      price: 59.99,
       
       created_at: "2022-06-01",
       duration: "8 weeks",
-    },
-    
+      },
+      
+      
+      
+      
+      
+      
+
+     
 
       ]);
       const [showForm, setShowForm] = useState(false);
@@ -213,31 +221,17 @@ const GererFormations=() =>{
             </FormGroup>
             <FormGroup>
             <Label for="type">Type de formation</Label>
-            <div>
-              <Label check style={{ marginRight: "25px" }}>
-                <Input
-                  type="checkbox"
-                  name="type"
-                  value="course"
-                  checked={newFormation.type === "course"}
-                  onChange={handleInputChange}
-                  style={{ marginRight: "15px" }}
-                />{" "}
-                Cours
-              </Label>
-             
-              <Label check >
-                <Input
-                  type="checkbox"
-                  name="type"
-                  value="exercise"
-                  checked={newFormation.type === "exercise"}
-                  onChange={handleInputChange}
-                  style={{ marginRight: "15px" }}
-                />{" "}
-                Exercice
-              </Label>
-            </div>
+            <Input
+              type="select"
+              name="type"
+              id="type"
+              value={newFormation.type}
+              onChange={handleInputChange}
+            >
+              <option value="">Sélectionnez un type</option>
+              <option value="Cours">Cours</option>
+              <option value="Exercice">Exercice</option>
+            </Input>
           </FormGroup>
             {newFormation.id ? (
               <Button onClick={updateFormation}>Terminer</Button>
@@ -259,6 +253,7 @@ const GererFormations=() =>{
               <img src={formation.image_url} alt={formation.title} />
               <div>Créé le: {formation.created_at}</div>
               <div>Durée: {formation.duration}</div>
+              <div>Type: {formation.type}</div>
               <Button color="primary" onClick={() => editFormation(formation.id)}>Modifier formation</Button>
               <Button color="secondary" onClick={() => deleteFormation(formation.id)}>Supprimer formation</Button>
             </CardBody>
